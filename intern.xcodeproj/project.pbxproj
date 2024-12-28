@@ -16,10 +16,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EDA0AA2B2D1B1BB40099D839 /* Exceptions for "intern" folder in "intern" target */ = {
+		EDA0AAE12D2065FF0099D839 /* Exceptions for "intern" folder in "intern" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Application/Info.plist,
 			);
 			target = EDA0AA182D1B1BB30099D839 /* intern */;
 		};
@@ -29,7 +29,7 @@
 		EDA0AA1B2D1B1BB30099D839 /* intern */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				EDA0AA2B2D1B1BB40099D839 /* Exceptions for "intern" folder in "intern" target */,
+				EDA0AAE12D2065FF0099D839 /* Exceptions for "intern" folder in "intern" target */,
 			);
 			path = intern;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HVH2XY748;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = intern/Info.plist;
+				INFOPLIST_FILE = intern/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -194,7 +194,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HVH2XY748;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = intern/Info.plist;
+				INFOPLIST_FILE = intern/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

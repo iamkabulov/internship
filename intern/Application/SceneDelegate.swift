@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+	var appCoordinator: AppCoodinator?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -18,9 +19,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window!.makeKeyAndVisible()
-        window!.windowScene = windowScene
-        window!.rootViewController = LoginViewController()
+        window?.makeKeyAndVisible()
+
+		appCoordinator = AppCoodinator(
+			window: window!,
+			dependency: AppCoodinator
+				.Dependency(
+					paywallProvider: PaywallProviderImpl(storage: Storage()),
+					paywallModuleFactory: PaywallModuleFactory()
+			)
+		)
+		appCoordinator?.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
