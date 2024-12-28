@@ -1,0 +1,44 @@
+name: intern
+
+options:
+	bundleIdPrefix: com.nursultan.intern
+	xcodeVersion: 15.0
+	minimumXcodeGenVersion: 2.42
+	deploymentTarget:
+		iOS: "15.0"
+	groupOrdering:
+		- order: [intern]
+		- pattern: 'intern
+		  order: [Application, Configuration, Domain, Paywall, AuthFirebase]
+	generateEmptyDirectories: true
+
+settings:
+	base:
+		SWIFT_VERSION: 5.0
+		CURRENT_PROJECT_VERSION: 1.0
+		MARKETING_VERSION: 1.0
+		TARGETED_DEVICE_FAMILY: 1
+
+targets:
+	intern:
+		type: application
+		platform: iOS
+		sources:
+			- path: intern
+		info:
+			path: intern/Application/Info.plist
+			properties:
+				CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+				CFBundleShortVersionString: "$(MARKETING_VERSION)"
+				CFBundleExecutable: "$(EXECUTABLE_NAME)"
+				UILauchStoryboardName: LaunchScreen
+				UIApplicationSceneManifest:
+					enabled: false
+		settings:
+			base:
+				PRODUCT_BUNDLE_IDENTIFIER: com.nursultan.intern
+
+packages:
+	Firebase:
+		url: https://github.com/firebase/firebase-ios-sdk.git
+		majorVersion: 11.6.0
