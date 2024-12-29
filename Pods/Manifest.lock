@@ -1,16 +1,107 @@
 PODS:
+  - Application (0.1.0):
+    - Configuration (~> 0.1.0)
+    - FirebaseCore (~> 11.6.0)
+    - Paywall (~> 0.1.0)
+  - Configuration (0.1.0):
+    - Domain (~> 0.1.0)
+    - FirebaseAuth (~> 11.6.0)
+  - Domain (0.1.0)
+  - FirebaseAppCheckInterop (11.6.0)
+  - FirebaseAuth (11.6.0):
+    - FirebaseAppCheckInterop (~> 11.0)
+    - FirebaseAuthInterop (~> 11.0)
+    - FirebaseCore (~> 11.6.0)
+    - FirebaseCoreExtension (~> 11.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GTMSessionFetcher/Core (< 5.0, >= 3.4)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseAuthInterop (11.6.0)
+  - FirebaseCore (11.6.0):
+    - FirebaseCoreInternal (~> 11.6.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/Logger (~> 8.0)
+  - FirebaseCoreExtension (11.6.0):
+    - FirebaseCore (~> 11.6.0)
+  - FirebaseCoreInternal (11.6.0):
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - GoogleUtilities/AppDelegateSwizzler (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (8.0.2):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.0.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (8.0.2)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.0.2)
+  - GoogleUtilities/Reachability (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMSessionFetcher/Core (4.1.0)
   - NSDKit (0.1.0)
+  - Paywall (0.1.0):
+    - Configuration (~> 0.1.0)
+    - Domain (~> 0.1.0)
+    - NSDKit (~> 0.1.0)
+  - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
+  - Application (from `./Module/Application`)
+  - Configuration (from `./Module/Configuration`)
+  - Domain (from `./Module/Domain`)
   - NSDKit (from `./Module/NSDKit`)
+  - Paywall (from `./Module/Paywall`)
+
+SPEC REPOS:
+  trunk:
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - RecaptchaInterop
 
 EXTERNAL SOURCES:
+  Application:
+    :path: "./Module/Application"
+  Configuration:
+    :path: "./Module/Configuration"
+  Domain:
+    :path: "./Module/Domain"
   NSDKit:
     :path: "./Module/NSDKit"
+  Paywall:
+    :path: "./Module/Paywall"
 
 SPEC CHECKSUMS:
+  Application: 21792dd28e02f99350cc5e015d444b41484b369c
+  Configuration: f2467b2b9496e1beb3495d6434436e36bce2fb9a
+  Domain: 545d9cf30a9a0c782405189dfd34b46310b3b728
+  FirebaseAppCheckInterop: 347aa09a805219a31249b58fc956888e9fcb314b
+  FirebaseAuth: 0304982cfe00df8d49bf533bc4becd3de36c7122
+  FirebaseAuthInterop: a919d415797d23b7bfe195a04f322b86c65020ef
+  FirebaseCore: 48b0dd707581cf9c1a1220da68223fb0a562afaa
+  FirebaseCoreExtension: 2d77d6430c16cf43ca2b04608302ed02b3598361
+  FirebaseCoreInternal: d98ab91e2d80a56d7b246856a8885443b302c0c2
+  GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
+  GTMSessionFetcher: 923b710231ad3d6f3f0495ac1ced35421e07d9a6
   NSDKit: 08dc4e9b4a4ab176143b77ce9be1646f3b908bbe
+  Paywall: 40ccc488b838ca203d819a2d3579e2de28286ad0
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 2a6b63415bbb24225bb9ef0f396216a5b6b2d867
+PODFILE CHECKSUM: 6756ae5d43310b82917d9149199f2a20aaeb9f5a
 
 COCOAPODS: 1.16.2

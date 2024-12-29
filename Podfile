@@ -7,5 +7,12 @@ target 'intern' do
 
   # Pods for intern
   pod 'NSDKit', :path => './Module/NSDKit'
+	pod 'Domain', :path => './Module/Domain'
+	pod 'Configuration', :path => './Module/Configuration'
+	pod 'Paywall', :path => './Module/Paywall'
+	pod 'Application', :path => './Module/Application'
+
+#	# Указание, что Configuration зависит от Domain
+#	pod 'Domain', :path => './Module/Domain'
 
 end

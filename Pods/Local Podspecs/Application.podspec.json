@@ -1,0 +1,43 @@
+{
+  "name": "Application",
+  "version": "0.1.0",
+  "summary": "Application module.",
+  "description": "Application is a Application layer of project.",
+  "homepage": "https://github.com/iamkabulov",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nursultan": "iamkabulov@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "FirebaseCore": [
+      "~> 11.6.0"
+    ],
+    "Configuration": [
+      "~> 0.1.0"
+    ],
+    "Paywall": [
+      "~> 0.1.0"
+    ]
+  },
+  "source_files": "**/*.{h,m,swift}",
+  "resources": [
+    "Application/GoogleService-Info.plist"
+  ],
+  "resource_bundles": {
+    "ApplicationAssets": [
+      "Application/logo.png"
+    ]
+  },
+  "swift_version": "5.0"
+}

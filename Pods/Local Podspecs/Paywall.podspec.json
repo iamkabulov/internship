@@ -1,0 +1,41 @@
+{
+  "name": "Paywall",
+  "version": "0.1.0",
+  "summary": "Paywall module.",
+  "description": "Paywall is a Paywall layer of project.",
+  "homepage": "https://github.com/iamkabulov",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nursultan": "iamkabulov@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Domain": [
+      "~> 0.1.0"
+    ],
+    "Configuration": [
+      "~> 0.1.0"
+    ],
+    "NSDKit": [
+      "~> 0.1.0"
+    ]
+  },
+  "source_files": [
+    "Dependency/**/*.{h,m,swift}",
+    "Factory/**/*.{h,m,swift}",
+    "Model/**/*.{h,m,swift}",
+    "Presenter/**/*.{h,m,swift}",
+    "View/**/*.{h,m,swift}"
+  ],
+  "swift_version": "5.0"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Configuration",
+  "version": "0.1.0",
+  "summary": "Configuration module.",
+  "description": "Configuration is a Configuration layer of project.",
+  "homepage": "https://github.com/iamkabulov",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nursultan": "iamkabulov@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "FirebaseAuth": [
+      "~> 11.6.0"
+    ],
+    "Domain": [
+      "~> 0.1.0"
+    ]
+  },
+  "source_files": "**/*.{h,m,swift}",
+  "swift_version": "5.0"
+}

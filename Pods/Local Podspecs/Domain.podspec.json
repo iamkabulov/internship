@@ -1,0 +1,27 @@
+{
+  "name": "Domain",
+  "version": "0.1.0",
+  "summary": "Domain module.",
+  "description": "Domain is a domain layer of project.",
+  "homepage": "https://github.com/iamkabulov",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nursultan": "iamkabulov@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": [
+    "Offer/Model/**/*.{h,m,swift}",
+    "Offer/Provider/**/*.{h,m,swift}"
+  ],
+  "swift_version": "5.0"
+}

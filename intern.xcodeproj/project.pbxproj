@@ -7,57 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006724C451B01B6443C1B244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FE25C45A3F0FDF7896DC9F /* LaunchScreen.storyboard */; };
-		0210698E5864B2CC682BDA0F /* PaywallPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28F67D6697E1F659F422792 /* PaywallPresenterImpl.swift */; };
-		15D0FFB53BC0C2B08585303B /* OfferDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70AA2FF8FC75CBEE5364DA7 /* OfferDTO.swift */; };
-		16A98EA3EFE2922ECD460DDA /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECA984A4F84351B452A436 /* Mocks.swift */; };
-		4567A68871B51B27A3168CFC /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6B097AF26A4B6A57BECF5 /* AuthenticationManager.swift */; };
-		4E24D28684FB41E518A32072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E506CA41B85AA0FD35AE141 /* GoogleService-Info.plist */; };
-		61D57734C78DD24D57FA1DA5 /* PaywallProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447E4D93B67D72C2502E9F8 /* PaywallProviderProtocol.swift */; };
-		69D5EF4E7090363F991511D7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E72464CC0C92CB3555B8E51F /* FirebaseCore */; };
-		6A456B0852AEFC0E5E1E1B77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC6C2B3E521E0EDE0E5F7C /* SceneDelegate.swift */; };
-		76B49D9673845C2FAB96DEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3907A5C469CC214070EE856E /* Assets.xcassets */; };
-		92606090DDAF67EA73B47BDA /* PaywallDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */; };
-		9E12F191B26DED4DB797D1EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 39E6F0143DB778CC29D09C0E /* FirebaseAuth */; };
-		A42AC5A2E232643B4FA62CB7 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6872CB0253C0F559F2D27 /* Offer.swift */; };
-		C2E914BE8B9E963ADF96D5C6 /* PaywallPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3599C493FA4008DF03C51D /* PaywallPresenter.swift */; };
-		C3A2EC31621BEDF553C9B7BF /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4410FA4393D50D4A22A96 /* PaywallView.swift */; };
-		C4B4AB8400B9A4A676450E9D /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB04788C5178776CCECF0C /* PaywallViewController.swift */; };
-		D0D9D776BAC4191ADD8CE5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F4D6A6129421566587B4B /* AppDelegate.swift */; };
-		D1A6E0816CC8A43AC07FC338 /* Pods_intern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C40C13AC1B5DA947431A3B /* Pods_intern.framework */; };
-		DE07A05A23BB5ACB720EA2FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49D0280DE3379DA43673B1 /* Coordinator.swift */; };
+		146980AFFF89F211F538E798 /* Pods_intern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474667D50C7C61F6D7120C25 /* Pods_intern.framework */; };
 		E28835DEFE08DD68100BAF80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6042C74F9728417DB2BF26EC /* LoginViewController.swift */; };
-		EDFCB3B541DD41665FCD3776 /* PaywallProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D6A00D990E1ADC1964656 /* PaywallProviderImpl.swift */; };
 		F3C7D263F0A074DC8C2D5107 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CB8E62C447B38B465E7 /* LoginView.swift */; };
-		F6025D043C585D4BC37634C8 /* PaywallModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F662E8574BCB1030F78A432 /* intern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intern.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		209CB5AAF755925CD256CFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22AB04788C5178776CCECF0C /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
-		26E205741F7DAE40989C6B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		2D5D6A00D990E1ADC1964656 /* PaywallProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallProviderImpl.swift; sourceTree = "<group>"; };
-		2E3599C493FA4008DF03C51D /* PaywallPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallPresenter.swift; sourceTree = "<group>"; };
-		3447E4D93B67D72C2502E9F8 /* PaywallProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallProviderProtocol.swift; sourceTree = "<group>"; };
-		37F6872CB0253C0F559F2D27 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
-		3907A5C469CC214070EE856E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		572F4D6A6129421566587B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57C40C13AC1B5DA947431A3B /* Pods_intern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		474667D50C7C61F6D7120C25 /* Pods_intern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6042C74F9728417DB2BF26EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.debug.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.debug.xcconfig"; sourceTree = "<group>"; };
-		6E49D0280DE3379DA43673B1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		74AE2B284CBEFA90231BB038 /* Pods-intern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.release.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.release.xcconfig"; sourceTree = "<group>"; };
 		7AA68CB8E62C447B38B465E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		7AECA984A4F84351B452A436 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
-		7E506CA41B85AA0FD35AE141 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallModuleFactory.swift; sourceTree = "<group>"; };
-		D28F67D6697E1F659F422792 /* PaywallPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallPresenterImpl.swift; sourceTree = "<group>"; };
-		D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.release.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.release.xcconfig"; sourceTree = "<group>"; };
-		DFD6B097AF26A4B6A57BECF5 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
-		E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallDependency.swift; sourceTree = "<group>"; };
-		E70AA2FF8FC75CBEE5364DA7 /* OfferDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDTO.swift; sourceTree = "<group>"; };
-		F0CC6C2B3E521E0EDE0E5F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA4410FA4393D50D4A22A96 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		ACB541C3DD26541348202E1B /* Pods-intern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.debug.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D5EF4E7090363F991511D7 /* FirebaseCore in Frameworks */,
-				9E12F191B26DED4DB797D1EE /* FirebaseAuth in Frameworks */,
-				D1A6E0816CC8A43AC07FC338 /* Pods_intern.framework in Frameworks */,
+				146980AFFF89F211F538E798 /* Pods_intern.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,90 +36,15 @@
 		080F10234BB369F70ADC7691 /* intern */ = {
 			isa = PBXGroup;
 			children = (
-				3DC3DFB2B70D1F1B7DFC4F3C /* Application */,
-				3B2B99CEE83339F12A7D3720 /* Configuration */,
-				79CD0C2944E84DAE8BB4727E /* Domain */,
-				1A49928E7B9EF5C6484B8416 /* Paywall */,
 				6253F8C483C0B44A3267247A /* AuthFirebase */,
 			);
 			path = intern;
 			sourceTree = "<group>";
 		};
-		0DCB00BC62D3DC20C03E2A4B /* Dependency */ = {
+		2963A25F659CA0F26D213627 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */,
-			);
-			path = Dependency;
-			sourceTree = "<group>";
-		};
-		12147BE2EC9A56244C76B2C0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FAA4410FA4393D50D4A22A96 /* PaywallView.swift */,
-				22AB04788C5178776CCECF0C /* PaywallViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1A49928E7B9EF5C6484B8416 /* Paywall */ = {
-			isa = PBXGroup;
-			children = (
-				0DCB00BC62D3DC20C03E2A4B /* Dependency */,
-				D14EDD36B35FC9031FB0AC47 /* Factory */,
-				6B00D9CBAD24FA1384D1A19C /* Model */,
-				27BBA3BFDAE0ADF6A8AEAB15 /* Presenter */,
-				12147BE2EC9A56244C76B2C0 /* View */,
-			);
-			path = Paywall;
-			sourceTree = "<group>";
-		};
-		2151B1D734D31725C6304DFE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				37F6872CB0253C0F559F2D27 /* Offer.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		27BBA3BFDAE0ADF6A8AEAB15 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				2E3599C493FA4008DF03C51D /* PaywallPresenter.swift */,
-				D28F67D6697E1F659F422792 /* PaywallPresenterImpl.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		3B2B99CEE83339F12A7D3720 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				DFD6B097AF26A4B6A57BECF5 /* AuthenticationManager.swift */,
-				7AECA984A4F84351B452A436 /* Mocks.swift */,
-				E70AA2FF8FC75CBEE5364DA7 /* OfferDTO.swift */,
-				2D5D6A00D990E1ADC1964656 /* PaywallProviderImpl.swift */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		3DC3DFB2B70D1F1B7DFC4F3C /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				572F4D6A6129421566587B4B /* AppDelegate.swift */,
-				3907A5C469CC214070EE856E /* Assets.xcassets */,
-				7E506CA41B85AA0FD35AE141 /* GoogleService-Info.plist */,
-				26E205741F7DAE40989C6B05 /* Info.plist */,
-				E3FE25C45A3F0FDF7896DC9F /* LaunchScreen.storyboard */,
-				F0CC6C2B3E521E0EDE0E5F7C /* SceneDelegate.swift */,
-				879E3DC586E5447D340CCF58 /* Coordinator */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		446FDE8652E972AE3D614900 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				57C40C13AC1B5DA947431A3B /* Pods_intern.framework */,
+				474667D50C7C61F6D7120C25 /* Pods_intern.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,61 +66,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B00D9CBAD24FA1384D1A19C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		79CD0C2944E84DAE8BB4727E /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				83F66A7048C084B4657AB2FC /* Offer */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		83F66A7048C084B4657AB2FC /* Offer */ = {
-			isa = PBXGroup;
-			children = (
-				2151B1D734D31725C6304DFE /* Model */,
-				CB6834D72C157F5B10A4F4AE /* Provider */,
-			);
-			path = Offer;
-			sourceTree = "<group>";
-		};
-		879E3DC586E5447D340CCF58 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				6E49D0280DE3379DA43673B1 /* Coordinator.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
 		C3813749238B5F2552ED712C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */,
-				D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */,
+				ACB541C3DD26541348202E1B /* Pods-intern.debug.xcconfig */,
+				74AE2B284CBEFA90231BB038 /* Pods-intern.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		CB6834D72C157F5B10A4F4AE /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-				3447E4D93B67D72C2502E9F8 /* PaywallProviderProtocol.swift */,
-			);
-			path = Provider;
-			sourceTree = "<group>";
-		};
-		D14EDD36B35FC9031FB0AC47 /* Factory */ = {
-			isa = PBXGroup;
-			children = (
-				A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */,
-			);
-			path = Factory;
 			sourceTree = "<group>";
 		};
 		DD8E0CED7337BF4FFA13B513 = {
@@ -245,7 +81,7 @@
 				080F10234BB369F70ADC7691 /* intern */,
 				666A43AC1705776A03574099 /* Products */,
 				C3813749238B5F2552ED712C /* Pods */,
-				446FDE8652E972AE3D614900 /* Frameworks */,
+				2963A25F659CA0F26D213627 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,21 +92,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87EFCD5B72D9766822D995B3 /* Build configuration list for PBXNativeTarget "intern" */;
 			buildPhases = (
-				20B1980642AEF5A55C3B6851 /* [CP] Check Pods Manifest.lock */,
+				33766C6AE62A1235F71D68FD /* [CP] Check Pods Manifest.lock */,
 				87C360A67F50B5A61DE76906 /* Sources */,
 				B10AE590B10D4B3DBFA8B4A1 /* Resources */,
 				D2730506D4951531AB752C91 /* Frameworks */,
-				DA5A623CFC15530A66C6FF57 /* [CP] Embed Pods Frameworks */,
+				FF9ABE67F473661D17F933E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = intern;
-			packageProductDependencies = (
-				E72464CC0C92CB3555B8E51F /* FirebaseCore */,
-				39E6F0143DB778CC29D09C0E /* FirebaseAuth */,
-			);
 			productName = intern;
 			productReference = 1F662E8574BCB1030F78A432 /* intern.app */;
 			productType = "com.apple.product-type.application";
@@ -293,9 +125,6 @@
 				en,
 			);
 			mainGroup = DD8E0CED7337BF4FFA13B513;
-			packageReferences = (
-				75CED57D5D48A21E38C5479C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 666A43AC1705776A03574099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -310,16 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B49D9673845C2FAB96DEE8 /* Assets.xcassets in Resources */,
-				4E24D28684FB41E518A32072 /* GoogleService-Info.plist in Resources */,
-				006724C451B01B6443C1B244 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20B1980642AEF5A55C3B6851 /* [CP] Check Pods Manifest.lock */ = {
+		33766C6AE62A1235F71D68FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,7 +167,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA5A623CFC15530A66C6FF57 /* [CP] Embed Pods Frameworks */ = {
+		FF9ABE67F473661D17F933E0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,38 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D9D776BAC4191ADD8CE5C4 /* AppDelegate.swift in Sources */,
-				4567A68871B51B27A3168CFC /* AuthenticationManager.swift in Sources */,
-				DE07A05A23BB5ACB720EA2FC /* Coordinator.swift in Sources */,
 				F3C7D263F0A074DC8C2D5107 /* LoginView.swift in Sources */,
 				E28835DEFE08DD68100BAF80 /* LoginViewController.swift in Sources */,
-				16A98EA3EFE2922ECD460DDA /* Mocks.swift in Sources */,
-				A42AC5A2E232643B4FA62CB7 /* Offer.swift in Sources */,
-				15D0FFB53BC0C2B08585303B /* OfferDTO.swift in Sources */,
-				92606090DDAF67EA73B47BDA /* PaywallDependency.swift in Sources */,
-				F6025D043C585D4BC37634C8 /* PaywallModuleFactory.swift in Sources */,
-				C2E914BE8B9E963ADF96D5C6 /* PaywallPresenter.swift in Sources */,
-				0210698E5864B2CC682BDA0F /* PaywallPresenterImpl.swift in Sources */,
-				EDFCB3B541DD41665FCD3776 /* PaywallProviderImpl.swift in Sources */,
-				61D57734C78DD24D57FA1DA5 /* PaywallProviderProtocol.swift in Sources */,
-				C3A2EC31621BEDF553C9B7BF /* PaywallView.swift in Sources */,
-				C4B4AB8400B9A4A676450E9D /* PaywallViewController.swift in Sources */,
-				6A456B0852AEFC0E5E1E1B77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E3FE25C45A3F0FDF7896DC9F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				209CB5AAF755925CD256CFFF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0726ABDA6EE3752D5279FE46 /* Release */ = {
@@ -445,6 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = intern/Module/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -460,11 +261,11 @@
 		};
 		18943009817E92B5CB414A83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */;
+			baseConfigurationReference = 74AE2B284CBEFA90231BB038 /* Pods-intern.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = intern/Application/Info.plist;
+				INFOPLIST_FILE = Module/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,6 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = intern/Module/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -543,11 +345,11 @@
 		};
 		DDEE968EE5B2A5008406B8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */;
+			baseConfigurationReference = ACB541C3DD26541348202E1B /* Pods-intern.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = intern/Application/Info.plist;
+				INFOPLIST_FILE = Module/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,30 +382,6 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		75CED57D5D48A21E38C5479C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		39E6F0143DB778CC29D09C0E /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 75CED57D5D48A21E38C5479C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		E72464CC0C92CB3555B8E51F /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 75CED57D5D48A21E38C5479C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 495E4502018C40E428CE9B82 /* Project object */;
 }

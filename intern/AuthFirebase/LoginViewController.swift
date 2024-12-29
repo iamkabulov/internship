@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Configuration
 
 protocol LoginViewControllerDelegate: AnyObject {
 	func didLogin()
