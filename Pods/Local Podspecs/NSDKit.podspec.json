@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "15.0"
+    "ios": "13.0"
   },
   "swift_versions": "5.0",
   "source_files": "Sources/**/*.{h,m,swift}",

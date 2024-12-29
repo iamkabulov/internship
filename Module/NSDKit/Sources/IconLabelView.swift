@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class IconLabelView: UIView {
+public class IconLabelView: UIView {
 
 	enum Spacing {
 		static let small: CGFloat = 8
@@ -77,7 +77,7 @@ extension IconLabelView {
 		])
 	}
 
-	func configure(title: String, iconName: String) {
+	public func configure(title: String, iconName: String) {
 		self.titleLabel.text = title
 		self.iconImageView.image = UIImage(systemName: iconName)
 	}

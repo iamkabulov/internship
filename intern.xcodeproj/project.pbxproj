@@ -20,14 +20,14 @@
 		92606090DDAF67EA73B47BDA /* PaywallDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */; };
 		9E12F191B26DED4DB797D1EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 39E6F0143DB778CC29D09C0E /* FirebaseAuth */; };
 		A42AC5A2E232643B4FA62CB7 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6872CB0253C0F559F2D27 /* Offer.swift */; };
-		BBECE709BE23A2EF7942B4A1 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EC7DDF26D12A25A38E948 /* FeaturesView.swift */; };
 		C2E914BE8B9E963ADF96D5C6 /* PaywallPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3599C493FA4008DF03C51D /* PaywallPresenter.swift */; };
 		C3A2EC31621BEDF553C9B7BF /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4410FA4393D50D4A22A96 /* PaywallView.swift */; };
 		C4B4AB8400B9A4A676450E9D /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB04788C5178776CCECF0C /* PaywallViewController.swift */; };
 		D0D9D776BAC4191ADD8CE5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F4D6A6129421566587B4B /* AppDelegate.swift */; };
+		D1A6E0816CC8A43AC07FC338 /* Pods_intern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C40C13AC1B5DA947431A3B /* Pods_intern.framework */; };
 		DE07A05A23BB5ACB720EA2FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49D0280DE3379DA43673B1 /* Coordinator.swift */; };
 		E28835DEFE08DD68100BAF80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6042C74F9728417DB2BF26EC /* LoginViewController.swift */; };
-		E8C01E9DED385C38CE324E7E /* Pods_intern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A839A8D577DA681B646E1950 /* Pods_intern.framework */; };
+		ED15FAB12D21913700A7048F /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FAB02D21913700A7048F /* FeaturesView.swift */; };
 		EDFCB3B541DD41665FCD3776 /* PaywallProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D6A00D990E1ADC1964656 /* PaywallProviderImpl.swift */; };
 		F3C7D263F0A074DC8C2D5107 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CB8E62C447B38B465E7 /* LoginView.swift */; };
 		F6025D043C585D4BC37634C8 /* PaywallModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */; };
@@ -44,21 +44,21 @@
 		37F6872CB0253C0F559F2D27 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		3907A5C469CC214070EE856E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572F4D6A6129421566587B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C40C13AC1B5DA947431A3B /* Pods_intern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6042C74F9728417DB2BF26EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		6D1EC7DDF26D12A25A38E948 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.debug.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.debug.xcconfig"; sourceTree = "<group>"; };
 		6E49D0280DE3379DA43673B1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		7A095ED0A8B831D054D3973E /* Pods-intern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.debug.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.debug.xcconfig"; sourceTree = "<group>"; };
 		7AA68CB8E62C447B38B465E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7AECA984A4F84351B452A436 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		7E506CA41B85AA0FD35AE141 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A839A8D577DA681B646E1950 /* Pods_intern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallModuleFactory.swift; sourceTree = "<group>"; };
 		D28F67D6697E1F659F422792 /* PaywallPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallPresenterImpl.swift; sourceTree = "<group>"; };
+		D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.release.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.release.xcconfig"; sourceTree = "<group>"; };
 		DFD6B097AF26A4B6A57BECF5 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallDependency.swift; sourceTree = "<group>"; };
 		E70AA2FF8FC75CBEE5364DA7 /* OfferDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDTO.swift; sourceTree = "<group>"; };
+		ED15FAB02D21913700A7048F /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
 		F0CC6C2B3E521E0EDE0E5F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3DCBC77D0E090326E6638D6 /* Pods-intern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intern.release.xcconfig"; path = "Target Support Files/Pods-intern/Pods-intern.release.xcconfig"; sourceTree = "<group>"; };
 		FAA4410FA4393D50D4A22A96 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 			files = (
 				69D5EF4E7090363F991511D7 /* FirebaseCore in Frameworks */,
 				9E12F191B26DED4DB797D1EE /* FirebaseAuth in Frameworks */,
-				E8C01E9DED385C38CE324E7E /* Pods_intern.framework in Frameworks */,
+				D1A6E0816CC8A43AC07FC338 /* Pods_intern.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		12147BE2EC9A56244C76B2C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6D1EC7DDF26D12A25A38E948 /* FeaturesView.swift */,
+				ED15FAB02D21913700A7048F /* FeaturesView.swift */,
 				FAA4410FA4393D50D4A22A96 /* PaywallView.swift */,
 				22AB04788C5178776CCECF0C /* PaywallViewController.swift */,
 			);
@@ -160,13 +160,12 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		5602956317027CBF1674DBF8 /* Pods */ = {
+		446FDE8652E972AE3D614900 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A095ED0A8B831D054D3973E /* Pods-intern.debug.xcconfig */,
-				F3DCBC77D0E090326E6638D6 /* Pods-intern.release.xcconfig */,
+				57C40C13AC1B5DA947431A3B /* Pods_intern.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6253F8C483C0B44A3267247A /* AuthFirebase */ = {
@@ -218,12 +217,13 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		BE57F7C68A6FF460EA0C6829 /* Frameworks */ = {
+		C3813749238B5F2552ED712C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A839A8D577DA681B646E1950 /* Pods_intern.framework */,
+				65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */,
+				D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		CB6834D72C157F5B10A4F4AE /* Provider */ = {
@@ -247,8 +247,8 @@
 			children = (
 				080F10234BB369F70ADC7691 /* intern */,
 				666A43AC1705776A03574099 /* Products */,
-				5602956317027CBF1674DBF8 /* Pods */,
-				BE57F7C68A6FF460EA0C6829 /* Frameworks */,
+				C3813749238B5F2552ED712C /* Pods */,
+				446FDE8652E972AE3D614900 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,11 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87EFCD5B72D9766822D995B3 /* Build configuration list for PBXNativeTarget "intern" */;
 			buildPhases = (
-				8177B669286B9F418042FB70 /* [CP] Check Pods Manifest.lock */,
+				20B1980642AEF5A55C3B6851 /* [CP] Check Pods Manifest.lock */,
 				87C360A67F50B5A61DE76906 /* Sources */,
 				B10AE590B10D4B3DBFA8B4A1 /* Resources */,
 				D2730506D4951531AB752C91 /* Frameworks */,
-				7B37B65287CC6DD9CAAA1045 /* [CP] Embed Pods Frameworks */,
+				DA5A623CFC15530A66C6FF57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,24 +322,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B37B65287CC6DD9CAAA1045 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8177B669286B9F418042FB70 /* [CP] Check Pods Manifest.lock */ = {
+		20B1980642AEF5A55C3B6851 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +344,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA5A623CFC15530A66C6FF57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-intern/Pods-intern-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,7 +371,6 @@
 				D0D9D776BAC4191ADD8CE5C4 /* AppDelegate.swift in Sources */,
 				4567A68871B51B27A3168CFC /* AuthenticationManager.swift in Sources */,
 				DE07A05A23BB5ACB720EA2FC /* Coordinator.swift in Sources */,
-				BBECE709BE23A2EF7942B4A1 /* FeaturesView.swift in Sources */,
 				F3C7D263F0A074DC8C2D5107 /* LoginView.swift in Sources */,
 				E28835DEFE08DD68100BAF80 /* LoginViewController.swift in Sources */,
 				16A98EA3EFE2922ECD460DDA /* Mocks.swift in Sources */,
@@ -386,6 +385,7 @@
 				C3A2EC31621BEDF553C9B7BF /* PaywallView.swift in Sources */,
 				C4B4AB8400B9A4A676450E9D /* PaywallViewController.swift in Sources */,
 				6A456B0852AEFC0E5E1E1B77 /* SceneDelegate.swift in Sources */,
+				ED15FAB12D21913700A7048F /* FeaturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +464,7 @@
 		};
 		18943009817E92B5CB414A83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3DCBC77D0E090326E6638D6 /* Pods-intern.release.xcconfig */;
+			baseConfigurationReference = D84FA3DF17B73248205403E7 /* Pods-intern.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -547,7 +547,7 @@
 		};
 		DDEE968EE5B2A5008406B8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A095ED0A8B831D054D3973E /* Pods-intern.debug.xcconfig */;
+			baseConfigurationReference = 65D8A2041F4F72077553E2A0 /* Pods-intern.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

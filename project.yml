@@ -11,7 +11,8 @@ options:
     - pattern: 'intern'
       order: [Application, Configuration, Domain, Paywall, AuthFirebase]
   generateEmptyDirectories: true
-
+  postGenCommand: pod install
+  
 packages:
   Firebase:
     url: https://github.com/firebase/firebase-ios-sdk
