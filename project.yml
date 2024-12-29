@@ -11,11 +11,6 @@ options:
     - pattern: 'intern'
   generateEmptyDirectories: true
   postGenCommand: pod install
-  
-packages:
-  Firebase:
-    url: https://github.com/firebase/firebase-ios-sdk
-    from: 11.6.0
 
 settings:
   base:
@@ -34,11 +29,6 @@ targets:
     platform: iOS
     sources:
       - path: intern
-    dependencies:
-      - package: Firebase
-        product: FirebaseCore
-      - package: Firebase
-        product: FirebaseAuth
     info:
       path: intern/Module/Application/Info.plist
       properties:
@@ -51,7 +41,7 @@ targets:
           UISceneConfigurations:
             UIWindowSceneSessionRoleApplication:
               - UISceneConfigurationName: "Default Configuration"
-                UISceneDelegateClassName: "$(PRODUCT_MODULE_NAME).SceneDelegate"
+                UISceneDelegateClassName: "Application.SceneDelegate"
 
     settings:
       base:

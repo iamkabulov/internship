@@ -57,9 +57,7 @@ extension PaywallView {
 		twoLabel.translatesAutoresizingMaskIntoConstraints = false
 
 		logoImageView.translatesAutoresizingMaskIntoConstraints = false
-		if let image = UIImage(named: "logo") {
-			logoImageView.image = image
-		}
+		logoImageView.image = UIImage(named: "logo")
 
 		featureCard.translatesAutoresizingMaskIntoConstraints = false
 
