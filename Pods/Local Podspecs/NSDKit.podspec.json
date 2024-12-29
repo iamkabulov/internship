@@ -1,0 +1,24 @@
+{
+  "name": "NSDKit",
+  "version": "0.1.0",
+  "summary": "NSDKit Design system.",
+  "description": "NSDKit is a design system of UI components.",
+  "homepage": "https://github.com/iamkabulov",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nursultan": "iamkabulov@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.{h,m,swift}",
+  "swift_version": "5.0"
+}
