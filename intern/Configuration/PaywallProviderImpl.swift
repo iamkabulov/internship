@@ -16,7 +16,7 @@ public class PaywallProviderImpl {
 
 extension PaywallProviderImpl: PaywallProviderProtocol {
 	public func fetchOffer(completion: @escaping (Result<Offer, Error>) -> Void) {
-		DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+		DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
 			completion(.success(self.storage.getOfferFromStorage()))
 		}
 	}

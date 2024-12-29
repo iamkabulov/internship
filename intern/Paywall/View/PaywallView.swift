@@ -5,6 +5,7 @@
 //  Created by Нурсултан Кабулов on 26.12.2024.
 //
 import UIKit
+import NSDKit
 
 public protocol PaywallViewProtocol: AnyObject {
 	var isLoading: Bool { get set }
@@ -20,25 +21,20 @@ public class PaywallView: UIView {
 		static let cornerRadius: CGFloat = 5
 		static let small: CGFloat = 8
 		static let medium: CGFloat = 16
-		static let large: CGFloat = 24
+		static let large: CGFloat = 32
 		static let buttonHeigth: CGFloat = 42
 		static let inset: CGFloat = 90
 		static let width: CGFloat = 256
 		static let height: CGFloat = 256
 	}
 
-	let stackView = UIStackView()
-	let logoImageView = UIImageView()
-	let titleLabel = UILabel()
-	let subtitleLabel = UILabel()
-
-	let featureCard = FeaturesView()
-	let monthlyButton = UIButton(type: .custom)
-	let annualButton = UIButton(type: .custom)
-	let tryFreeButton = UIButton(type: .custom)
-
 	let loadingIndicator = UIActivityIndicatorView()
-
+	let logoImageView = UIImageView()
+	let twoLabel = NSTwoLabel()
+	let featureCard = NSFeaturesCard()
+	let monthlyButton = NSSecondaryButton()
+	let annualButton = NSPrimaryButton()
+	let tryFreeButton = NSPlainButton()
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)
@@ -58,20 +54,7 @@ extension PaywallView {
 		backgroundColor = .systemBackground
 		clipsToBounds = true
 
-		stackView.translatesAutoresizingMaskIntoConstraints = false
-		stackView.axis = .vertical
-		stackView.alignment = .center
-		stackView.spacing = Spacing.small
-		stackView.distribution = .fill
-
-		titleLabel.translatesAutoresizingMaskIntoConstraints = false
-		titleLabel.font = .preferredFont(forTextStyle: .largeTitle)
-		titleLabel.textColor = .label
-
-		subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
-		subtitleLabel.font = .preferredFont(forTextStyle: .body)
-		subtitleLabel.numberOfLines = 0
-		subtitleLabel.textColor = .secondaryLabel
+		twoLabel.translatesAutoresizingMaskIntoConstraints = false
 
 		logoImageView.translatesAutoresizingMaskIntoConstraints = false
 		logoImageView.image = UIImage(named: "logo")
@@ -79,35 +62,21 @@ extension PaywallView {
 		featureCard.translatesAutoresizingMaskIntoConstraints = false
 
 		monthlyButton.translatesAutoresizingMaskIntoConstraints = false
-		monthlyButton.setTitleColor(.label, for: .normal)
-		monthlyButton.titleLabel?.font = .preferredFont(forTextStyle: .headline)
-		monthlyButton.backgroundColor = .systemBackground
-		monthlyButton.layer.cornerRadius = Spacing.cornerRadius
-		monthlyButton.layer.borderWidth = Spacing.border
 		monthlyButton.addTarget(self, action: #selector(tryFree), for: .touchUpInside)
 
 		annualButton.translatesAutoresizingMaskIntoConstraints = false
-		annualButton.setTitleColor(.systemBackground, for: .normal)
-		annualButton.titleLabel?.font = .preferredFont(forTextStyle: .headline)
-		annualButton.backgroundColor = .systemPink
-		annualButton.layer.cornerRadius = Spacing.cornerRadius
 		annualButton.addTarget(self, action: #selector(tryFree), for: .touchUpInside)
 
 		tryFreeButton.translatesAutoresizingMaskIntoConstraints = false
 		tryFreeButton.setTitle("Try free", for: .normal)
-		tryFreeButton.setTitleColor(.label, for: .normal)
-		tryFreeButton.titleLabel?.font = .preferredFont(forTextStyle: .caption1)
 		tryFreeButton.addTarget(self, action: #selector(tryFree), for: .touchUpInside)
 
 		loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
 	}
 
 	func layout() {
-		stackView.addSubview(titleLabel)
-		stackView.addSubview(subtitleLabel)
-
 		addSubview(logoImageView)
-		addSubview(stackView)
+		addSubview(twoLabel)
 		addSubview(featureCard)
 		addSubview(monthlyButton)
 		addSubview(annualButton)
@@ -123,27 +92,16 @@ extension PaywallView {
 			logoImageView.heightAnchor.constraint(equalToConstant: Spacing.height)
 		])
 
-		//MARK: Stack
+		//MARK: TwoLabel
 		NSLayoutConstraint.activate([
-			stackView.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: Spacing.small),
-			stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
-			stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
-			stackView.heightAnchor.constraint(equalToConstant: 104)
+			twoLabel.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: Spacing.small),
+			twoLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+			twoLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
 		])
 
-		//MARK: Title and sub
+		//MARK: FeatureCard
 		NSLayoutConstraint.activate([
-			titleLabel.topAnchor.constraint(equalTo: stackView.topAnchor),
-			titleLabel.leadingAnchor.constraint(equalTo: stackView.leadingAnchor,constant: Spacing.medium),
-			titleLabel.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: -Spacing.medium),
-			subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: Spacing.small),
-			subtitleLabel.leadingAnchor.constraint(equalTo: stackView.leadingAnchor,constant: Spacing.medium),
-			subtitleLabel.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: -Spacing.medium),
-		])
-
-		//MARK: Stack2
-		NSLayoutConstraint.activate([
-			featureCard.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: Spacing.medium),
+			featureCard.topAnchor.constraint(equalTo: twoLabel.bottomAnchor, constant: Spacing.medium),
 			featureCard.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Spacing.medium),
 			featureCard.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Spacing.medium),
 		])
@@ -152,7 +110,6 @@ extension PaywallView {
 		NSLayoutConstraint.activate([
 			monthlyButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Spacing.medium),
 			monthlyButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Spacing.medium),
-			monthlyButton.heightAnchor.constraint(equalToConstant: Spacing.buttonHeigth),
 			monthlyButton.bottomAnchor
 				.constraint(equalTo: annualButton.topAnchor, constant: -Spacing.medium),
 		])
@@ -161,17 +118,17 @@ extension PaywallView {
 		NSLayoutConstraint.activate([
 			annualButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Spacing.medium),
 			annualButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Spacing.medium),
-			annualButton.heightAnchor.constraint(equalToConstant: Spacing.buttonHeigth),
 			annualButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Spacing.large),
 		])
 
-		//MARK: AnnualButton
+		//MARK: Try free
 		NSLayoutConstraint.activate([
 			tryFreeButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: Spacing.small),
 			tryFreeButton.trailingAnchor
 				.constraint(equalTo: trailingAnchor, constant: -Spacing.medium),
 		])
 
+		//MARK: LoadingIndicator
 		NSLayoutConstraint.activate([
 			loadingIndicator.centerXAnchor.constraint(equalTo: centerXAnchor),
 			loadingIndicator.centerYAnchor.constraint(equalTo: centerYAnchor),
@@ -185,11 +142,14 @@ extension PaywallView {
 
 extension PaywallView {
 	public func setup(_ offer: Offer) {
-		titleLabel.text = offer.offerTitle
-		subtitleLabel.text = offer.offerDescription
-		monthlyButton.setTitle("$\(offer.monthlyPrice) 1 Month", for: .normal)
-		annualButton.setTitle("\(offer.annualPrice) 1 Year", for: .normal)
-		featureCard.setup(offer.features)
+		twoLabel.setup(title: offer.offerTitle, description: offer.offerDescription)
+
+		monthlyButton.setTitle(title: "$\(offer.monthlyPrice) 1 Month")
+		annualButton.setTitle(title: "\(offer.annualPrice) 1 Year")
+
+		offer.features.forEach { feature in
+			featureCard.setup(title: feature.title, iconName: feature.iconName)
+		}
 	}
 
 	public func isLoaded(_ value: Bool) {

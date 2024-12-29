@@ -27,7 +27,6 @@
 		D1A6E0816CC8A43AC07FC338 /* Pods_intern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C40C13AC1B5DA947431A3B /* Pods_intern.framework */; };
 		DE07A05A23BB5ACB720EA2FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49D0280DE3379DA43673B1 /* Coordinator.swift */; };
 		E28835DEFE08DD68100BAF80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6042C74F9728417DB2BF26EC /* LoginViewController.swift */; };
-		ED15FAB12D21913700A7048F /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FAB02D21913700A7048F /* FeaturesView.swift */; };
 		EDFCB3B541DD41665FCD3776 /* PaywallProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D6A00D990E1ADC1964656 /* PaywallProviderImpl.swift */; };
 		F3C7D263F0A074DC8C2D5107 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA68CB8E62C447B38B465E7 /* LoginView.swift */; };
 		F6025D043C585D4BC37634C8 /* PaywallModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9752272CE48A8388602C5 /* PaywallModuleFactory.swift */; };
@@ -57,7 +56,6 @@
 		DFD6B097AF26A4B6A57BECF5 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		E0B8AFD452E49EE9A847C97B /* PaywallDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallDependency.swift; sourceTree = "<group>"; };
 		E70AA2FF8FC75CBEE5364DA7 /* OfferDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDTO.swift; sourceTree = "<group>"; };
-		ED15FAB02D21913700A7048F /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
 		F0CC6C2B3E521E0EDE0E5F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAA4410FA4393D50D4A22A96 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +97,6 @@
 		12147BE2EC9A56244C76B2C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ED15FAB02D21913700A7048F /* FeaturesView.swift */,
 				FAA4410FA4393D50D4A22A96 /* PaywallView.swift */,
 				22AB04788C5178776CCECF0C /* PaywallViewController.swift */,
 			);
@@ -385,7 +382,6 @@
 				C3A2EC31621BEDF553C9B7BF /* PaywallView.swift in Sources */,
 				C4B4AB8400B9A4A676450E9D /* PaywallViewController.swift in Sources */,
 				6A456B0852AEFC0E5E1E1B77 /* SceneDelegate.swift in Sources */,
-				ED15FAB12D21913700A7048F /* FeaturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

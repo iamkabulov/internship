@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class IconLabelView: UIView {
+public class NSIconLabel: UIView {
 
 	enum Spacing {
 		static let small: CGFloat = 8
@@ -34,7 +34,7 @@ public class IconLabelView: UIView {
 	}
 }
 
-extension IconLabelView {
+extension NSIconLabel {
 
 	func style() {
 		translatesAutoresizingMaskIntoConstraints = false
