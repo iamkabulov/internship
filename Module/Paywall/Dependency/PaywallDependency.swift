@@ -4,13 +4,16 @@
 //
 //  Created by Нурсултан Кабулов on 27.12.2024.
 //
-import Configuration
+import Domain
 
 public struct PaywallDependency {
-    public let provider: PaywallProviderImpl
+	public let provider: PaywallProviderProtocol
     public let paywallNavigation: PaywallNavigationDelegate
 
-    public init(provider: PaywallProviderImpl, paywallNavigation: PaywallNavigationDelegate) {
+	public init(
+		provider: PaywallProviderProtocol,
+		paywallNavigation: PaywallNavigationDelegate
+	) {
         self.provider = provider
         self.paywallNavigation = paywallNavigation
     }

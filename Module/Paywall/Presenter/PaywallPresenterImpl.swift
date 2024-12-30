@@ -5,7 +5,7 @@
 //  Created by Нурсултан Кабулов on 27.12.2024.
 //
 import UIKit
-import Configuration
+import Domain
 
 public protocol PaywallNavigationDelegate: AnyObject {
 	func tryFree()
@@ -15,7 +15,7 @@ public class PaywallPresenterImpl: PaywallPresenter {
 
 	public weak var view: PaywallViewProtocol?
 	public weak var navigation: PaywallNavigationDelegate?
-	private let provider: PaywallProviderImpl
+	private let provider: PaywallProviderProtocol
 
 	public init(dependency: PaywallDependency) {
 		self.provider = dependency.provider
